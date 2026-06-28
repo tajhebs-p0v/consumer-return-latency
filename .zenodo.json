@@ -1,0 +1,25 @@
+{
+  "title": "Consumer-Return Latency as the Control Parameter Between K-Shaped Divergence and Cyclic Growth",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "description": "A dynamical-systems framing of distributional macro-stability: the latency of the consumer-return loop, not its level, is the control parameter selecting K-shaped divergence vs. a bounded rising cycle. Includes a minimal model with a delay-induced Hopf bifurcation, a curve-fitting classifier, real-data estimates (US 1967-2018, 1989-2026, and a COVID natural experiment), and a velocity-first consumer-equity instrument design rule. Text CC-BY-4.0; code MIT.",
+  "creators": [
+    {
+      "name": "Anderson, Taj",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "keywords": [
+    "consumer-return latency",
+    "K-shaped economy",
+    "distributional macro-stability",
+    "Goodwin growth cycle",
+    "Hopf bifurcation",
+    "Cantillon effect",
+    "velocity of money",
+    "ownership economy",
+    "universal basic dividend"
+  ]
+}
