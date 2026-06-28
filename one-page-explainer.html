@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What I've been working on — in one page</title>
+<style>
+  :root{ --top:#C24A22; --ppl:#0F6E56; --ink:#23211d; --soft:#6b6760; --line:#e4e0d8; --box:#faf7f1; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:#fff; color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size:10.6px; line-height:1.45; }
+  .page{ max-width:760px; margin:0 auto; padding:26px 30px; }
+  h1{ font-size:19px; margin:0 0 2px; letter-spacing:-.2px; }
+  .sub{ color:var(--soft); font-size:11px; margin:0 0 14px; }
+  h2{ font-size:12.5px; margin:14px 0 5px; letter-spacing:.2px;
+    border-bottom:1px solid var(--line); padding-bottom:3px; }
+  p{ margin:0 0 7px; }
+  .lead{ font-size:11.6px; }
+  b,strong{ font-weight:600; }
+  .top{ color:var(--top); font-weight:600; }
+  .ppl{ color:var(--ppl); font-weight:600; }
+  .cols{ display:flex; gap:20px; }
+  .col{ flex:1; }
+  .eq{ background:var(--box); border:1px solid var(--line); border-radius:7px;
+    padding:9px 12px; margin:6px 0 8px; }
+  .eq code{ font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    font-size:11px; }
+  .key{ font-size:9.7px; color:var(--soft); margin-top:5px; }
+  .turn{ background:#fff; border:1.5px solid var(--top); border-radius:7px;
+    padding:7px 11px; margin:8px 0; font-size:11px; }
+  .obj{ background:var(--box); border-left:3px solid var(--ppl); border-radius:0 6px 6px 0;
+    padding:8px 12px; margin:6px 0; }
+  ol{ margin:5px 0 4px; padding-left:18px; }
+  li{ margin:0 0 4px; }
+  .take{ margin-top:12px; font-size:12px; text-align:center; font-style:italic;
+    color:var(--ink); border-top:1px solid var(--line); padding-top:9px; }
+  figure{ margin:6px 0; }
+  figcaption{ font-size:9.4px; color:var(--soft); text-align:center; margin-top:2px; }
+  @page{ size:letter; margin:14mm; }
+  @media print{ .page{ padding:0; max-width:none; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>Why the gap keeps widening — and the one thing that fixes it</h1>
+  <p class="sub">What I've been working on, in one page.</p>
+
+  <p class="lead">Short version: <b>the economy isn't broken because people are greedy. It's broken because
+  money takes too long to get back to regular people — and that delay is what turns a steady, shared rise
+  into a runaway gap.</b> Fix the delay, and the gap can close <em>without anyone having to lose.</em></p>
+
+  <h2>The idea, as a shower</h2>
+  <p>A shower with a slow tap is misery: you turn it up, nothing happens, you turn it up more — then it's
+  scalding, you yank it back, now it's freezing. The <b>delay</b> is what makes it swing wildly. A
+  responsive shower lets you settle into something comfortable. The economy is a shower with a
+  <b>decades-long delay</b> between the money at the top and everyone else — and that delay is exactly what
+  makes the gap swing open into a "K."</p>
+
+  <figure>
+  <svg viewBox="0 0 720 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+    <!-- left: the K -->
+    <text x="20" y="14" font-size="11" font-weight="600" fill="#23211d">TODAY — the funnel (a "K")</text>
+    <line x1="20" y1="100" x2="320" y2="100" stroke="#cfcabf"/>
+    <polygon points="20,72 320,30 320,92 20,78" fill="#eee9e0"/>
+    <polyline points="20,72 320,30" fill="none" stroke="#C24A22" stroke-width="2.5"/>
+    <polyline points="20,78 320,92" fill="none" stroke="#0F6E56" stroke-width="2.5"/>
+    <text x="326" y="33" font-size="9.5" fill="#C24A22">the top ↑↑</text>
+    <text x="326" y="95" font-size="9.5" fill="#0F6E56">people flat</text>
+    <text x="120" y="116" font-size="9.5" fill="#6b6760">the gap widens</text>
+    <!-- right: the wave -->
+    <text x="430" y="14" font-size="11" font-weight="600" fill="#23211d">FIXED — a rising wave</text>
+    <line x1="430" y1="100" x2="700" y2="100" stroke="#cfcabf"/>
+    <path d="M430,80 Q462,58 494,72 T558,62 T622,50 T686,40" fill="none" stroke="#C24A22" stroke-width="2.5"/>
+    <path d="M430,86 Q462,66 494,80 T558,70 T622,58 T686,48" fill="none" stroke="#0F6E56" stroke-width="2.5"/>
+    <text x="556" y="116" font-size="9.5" fill="#6b6760">rises together, bounded</text>
+  </svg>
+  <figcaption>Same economy. Long delay → the lines fork apart (a K). Short delay → they rise together as a wave.</figcaption>
+  </figure>
+
+  <h2>The equation — in plain words</h2>
+  <div class="cols">
+    <div class="col">
+      <div class="eq">
+        <code><span style="color:#C24A22">K′ = αK − βC</span></code><br>
+        <code><span style="color:#0F6E56">C′ = κ·K(after delay τ) − γC</span></code>
+        <div class="key">
+          <b>K</b> = money at the <span class="top">top</span> · <b>C</b> = money in <span class="ppl">people's</span> hands<br>
+          <b>α</b> how fast the top grows on its own (leverage) ·
+          <b>β</b> what it hands back ·
+          <b>κ</b> the share that cycles back ·
+          <b>τ</b> the <b>delay</b> before it does ·
+          <b>γ</b> what leaks away (interest, rent, inflation)
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <p style="margin-top:2px">In a sentence, the math just says: <b>the top grows fast on its own; some
+      trickles back to people — but only after a long delay, and with a lot lost on the way.</b></p>
+      <p>We don't try to stop the top from growing (we leave <b>α</b> alone). We shrink one thing.</p>
+    </div>
+  </div>
+  <div class="turn"><b>The one knob we turn: τ — the delay.</b> Today it's <b>decades</b> (your 401(k) pays
+  off at retirement, not this year). Long delay → a <b>K</b>. Short delay → a <b>wave</b>.</div>
+
+  <h2>The fix: a stake you can actually use, soon</h2>
+  <p>When you buy an iPhone, you help create Apple's value — but it all flows to shareholders, and your only
+  share is stock you can't touch for 30 years. The idea: <b>what if using or buying something gave you a
+  small, real, soon-usable stake in the value you helped make?</b> A loop that today takes decades would
+  close in weeks. You're not waiting for charity or retirement — you're a participant in real time. (It can
+  run on ordinary tools — co-ops, customer rewards, a fast public fund — no crypto required.)</p>
+
+  <h2>"But wouldn't the people on top never allow it?"</h2>
+  <div class="obj">
+  <p style="margin:0 0 5px"><b>This is the best objection — and it's right.</b> The people at the top of the K
+  benefit from the K and hold the power to keep it. Here's the honest answer, not a dodge:</p>
+  <ol>
+    <li><b>It's not take-from-the-rich.</b> The whole economy still rises — we only bound the <em>gap</em> and
+    the <em>instability</em>. A steady rising wave can reach a <em>higher</em> top than a funnel that keeps
+    crashing. The pitch is "everyone richer, just less fragile," not "redistribute."</li>
+    <li><b>The best path doesn't need their permission.</b> Companies can give customers a stake because it
+    <em>makes them money</em> — owner-customers are more loyal and grow the business. That routes around the
+    blockade entirely.</li>
+    <li><b>Even the top needs stability.</b> Top-heavy economies crash, and crashes destroy the very wealth
+    they're holding. Henry Ford paid workers enough to buy his cars because a broad base made <em>him</em>
+    richer. COVID proved the system <em>can</em> flip the fast channel on when forced to.</li>
+    <li><b>The honest concession:</b> none of this is guaranteed. Entrenched power is a real headwind. The
+    realistic route is the competitive/permissionless one — plus the occasional crisis that forces the issue —
+    not generosity from the top. The point isn't "everyone will agree"; it's "here's the actual lever, and a
+    way forward that doesn't require asking permission."</li>
+  </ol>
+  </div>
+
+  <p class="take">"Fix the delay, and the gap closes without anyone having to lose."</p>
+
+</div>
+</body>
+</html>

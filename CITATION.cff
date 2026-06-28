@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Consumer-Return Latency as the Control Parameter Between K-Shaped Divergence and Cyclic Growth"
+abstract: >-
+  A dynamical-systems framing of distributional macro-stability. The latency of
+  the consumer-return loop (how fast created value cycles back into broad consumer
+  purchasing power), not its level, is treated as the control parameter that selects
+  whether the macro-distribution diverges (a "K-shape") or settles into a bounded
+  rising oscillation. Includes a minimal model with a delay-induced Hopf bifurcation,
+  a curve-fitting classifier, real-data estimates, and a velocity-first consumer-equity
+  instrument design rule (minimize latency).
+type: generic
+authors:
+  - given-names: "Taj"
+    family-names: "Anderson"
+    affiliation: "Independent researcher"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # optional, uncomment if you have one
+version: "1.0"
+date-released: "2026-06-27"            # update to your actual release day
+license: CC-BY-4.0
+keywords:
+  - consumer-return latency
+  - K-shaped economy
+  - distributional macro-stability
+  - Goodwin growth cycle
+  - Hopf bifurcation
+  - Cantillon effect
+  - velocity of money
+  - ownership economy
+  - universal basic dividend
+# doi: "10.5281/zenodo.XXXXXXX"        # Zenodo returns this on first release
+# url: "https://github.com/USER/REPO"  # your repo
