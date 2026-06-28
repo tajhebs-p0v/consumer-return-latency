@@ -49,11 +49,6 @@ the web3 "ownership economy"). The new edge is **latency-as-control-parameter** 
 **velocity-first** instrument (shorten the loop) rather than a fairness-first, slow-payout one.
 See §4 and §10 of the white paper.
 
-## Status & how to publish
-
-- **Now:** viewpoint essay (light paper) + preprint (white paper + this repo) on SSRN / RePEc / arXiv `econ.GN`; mint a DOI via Zenodo.
-- **For peer review:** calibrate $\alpha,\beta,\kappa,\gamma,\tau$ to Federal Reserve Distributional Financial Accounts / flow-of-funds data; estimate the empirical envelope rate $\sigma$ and divergence rate; add a concrete instrument design with legal analysis.
-
 ## License
 
 - Papers: **CC BY 4.0** (open, attribution required).
