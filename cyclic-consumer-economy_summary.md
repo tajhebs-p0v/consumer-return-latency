@@ -3,7 +3,7 @@
 ### Fixing the K-shaped economy by speeding money back to the people who actually spend it
 
 **By Taj Anderson** · Independent researcher · June 2026
-*A plain-language companion to the working paper "Consumer-Return Latency as the Control Parameter Between K-Shaped Divergence and Cyclic Growth." Math, model, and data are in the white paper and the open-source repo ⟨URL⟩. Licensed CC BY 4.0 — share freely with credit.*
+*A plain-language companion to the working paper "Consumer-Return Latency as the Control Parameter Between K-Shaped Divergence and Cyclic Growth." Math, model, and data are in the white paper and the open-source repo https://github.com/tajhebs-p0v/consumer-return-latency (DOI: 10.5281/zenodo.20986230). Licensed CC BY 4.0 — share freely with credit.*
 
 ---
 

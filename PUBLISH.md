@@ -4,9 +4,9 @@ The DOI is the **last** step — it permanently stamps whatever is in the repo, 
 blanks first. You do the account/login/click steps; the files here make them one-click.
 
 ## 0. Fill the blanks (before anything is public)
-- [ ] Replace `⟨Your Name⟩`, affiliation, email/ORCID, date in `cyclic-consumer-economy_whitepaper.md` and `_summary.md`
-- [ ] Replace `FIRST_NAME` / `LAST_NAME` (and optional ORCID) in `CITATION.cff` and `.zenodo.json`
-- [ ] Run `RUN_CANONICAL_TAU.md` and paste τ, κ, corr into the **⟦ CANONICAL τ — slot to fill ⟧** box in the white paper
+- [x] ~~Fill author name / affiliation~~ — done (Taj Anderson, Independent researcher)
+- [x] ~~Fill CITATION.cff / .zenodo.json~~ — done
+- [x] ~~Run canonical τ and fill the slot~~ — done (τ ≈ 3 yr, +6.2 pp/yr, §7.2)
 
 ## 1. Put it on GitHub
 - [ ] Create a public repo (e.g. `consumer-return-latency`)

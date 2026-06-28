@@ -2,10 +2,10 @@
 
 ### A dynamical-systems framing of distributional macro-stability, with a channel-agnostic, velocity-first consumer-equity instrument
 
-**Author:** Taj Anderson · Independent researcher · ⟨email — optional⟩ · ⟨ORCID — optional⟩
+**Author:** Taj Anderson · Independent researcher
 **Version:** 1.0 (working paper) · **Date:** June 2026
-**License:** CC BY 4.0 (text) · MIT (code) · **DOI:** ⟨Zenodo DOI after deposit⟩
-**Code & data:** ⟨repo URL⟩ — `consumer_cycle_model.py`, `calibrate.py`, `real_tau.py`
+**License:** CC BY 4.0 (text) · MIT (code) · **DOI:** https://doi.org/10.5281/zenodo.20986230
+**Code & data:** https://github.com/tajhebs-p0v/consumer-return-latency — `consumer_cycle_model.py`, `calibrate.py`, `real_tau.py`
 
 **Keywords:** consumer-return latency; K-shaped economy; distributional macro-stability; Goodwin growth cycle; Hopf bifurcation; Cantillon effect; velocity of money; ownership economy; universal basic dividend.
 
@@ -349,12 +349,12 @@ Net: this clears the bar for an open-source preprint and a sharp viewpoint essay
 
 ## Data and code availability
 
-All code and data to reproduce every figure and number are in the companion repository ⟨repo URL⟩:
+All code and data to reproduce every figure and number are in the companion repository https://github.com/tajhebs-p0v/consumer-return-latency (DOI: https://doi.org/10.5281/zenodo.20986230):
 `consumer_cycle_model.py` (regimes, latency bifurcation, curve-fit classifier), `calibrate.py` (latency/gain estimator, real divergence, COVID panel, FRED recipe), `real_tau.py` (real-data estimate), and the source CSVs. Figures regenerate via `python <script>.py`. The canonical wealth-side $\tau$ run is documented in `RUN_CANONICAL_TAU.md`. Text licensed CC BY 4.0; code MIT.
 
 ## How to cite
 
-> Anderson, T. (2026). *Consumer-Return Latency as the Control Parameter Between K-Shaped Divergence and Cyclic Growth.* Working paper, version 1.0. DOI: ⟨Zenodo DOI after deposit⟩.
+> Anderson, T. (2026). *Consumer-Return Latency as the Control Parameter Between K-Shaped Divergence and Cyclic Growth.* Working paper, version 1.0. DOI: 10.5281/zenodo.20986230.
 
 ## Acknowledgments
 

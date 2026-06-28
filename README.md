@@ -1,5 +1,7 @@
 # Consumer-Return Latency & the Cyclic Consumer Economy
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20986230.svg)](https://doi.org/10.5281/zenodo.20986230)
+
 An open-source viewpoint + working-paper + runnable model proposing that the **latency of
 the consumer-return loop** — how fast created value cycles back into broad consumer
 purchasing power — is the control parameter that decides whether an economy **diverges
